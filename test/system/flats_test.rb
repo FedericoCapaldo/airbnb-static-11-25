@@ -32,7 +32,7 @@ class FlatsTest < ApplicationSystemTestCase
     visit "/"
 
     assert_selector "h1", text: "Flats"
-    assert_selector "li", count: 2
+    assert_selector "h2", count: 2
 
     assert_text "Charm at the Steps of the Sacre Coeur/Montmartre"
     assert_text "Trendy Apt in Buttes Montmartre"
