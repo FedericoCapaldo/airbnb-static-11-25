@@ -7,7 +7,7 @@ class FlatsTest < ApplicationSystemTestCase
   #   assert_selector "h1", text: "Flats"
   # end
 
-  test "visiting flat page" do
+  test "visiting flats page" do
     visit "/"
 
     assert_selector "h1", text: "Flats"
